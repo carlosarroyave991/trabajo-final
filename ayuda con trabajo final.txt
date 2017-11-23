@@ -1,0 +1,24 @@
+
+
+
+
+general 
+	equipo
+		-victorias
+		-derrotas
+
+baloncesto:
+	-perdidas de balon:
+	-rebotes cogidos:
+	-mejor anotador de triples:
+	-listado de los mejores triplistas:
+	-numero del mejor anotador de triples:
+	-equipo ganador de la liga de baloncesto:
+futbol:
+	-numero de empates:
+	-numero de goles a favor:
+	-numero de goles en contra:
+	-nombre del goleador del equipo:
+	-numero de goles del goleador:
+	-equipo ganador de la liga de futbol(suponiendo que se consiguen tres puntos por partido ganando y un punto por partido empatado).
+	-maximo goleador de la liga de futbol:

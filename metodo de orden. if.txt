@@ -1,0 +1,23 @@
+for(i=1;i<=a;i++){
+if(equipo[1].promedio>equipo[2].promedio && equipo[1].promedio>equipo[3].promedio && equipo[2].promedio>equipo[3].promedio || equipo[2].promedio<equipo[3].promedio){
+ fflush(stdin);
+ printf("En el puesto N#%i esta El Equipo %s.\n",i,equipo[i+1].nombre_equipo);
+ printf("Total de victorias:%i\n",equipo[i+1].victorias);
+ printf("Total de derrotas:%i\n",equipo[i+1].derrotas);
+ printf("Mejor triplero del equipo:%s\n\n",equipo[i+1].nombre_triplero);
+}else{
+    if (equipo[2].promedio>equipo[1].promedio && equipo[2].promedio>equipo[3].promedio && equipo[1].promedio>equipo[3].promedio || equipo[1].promedio<equipo[3].promedio ){
+    printf("En el puesto N#%i esta El Equipo %s.\n",i,equipo[i+1].nombre_equipo);
+    printf("Total de victorias:%i\n",equipo[i+1].victorias);
+    printf("Total de derrotas:%i\n",equipo[i+1].derrotas);
+    printf("Mejor triplero del equipo:%s\n\n",equipo[i+1].nombre_triplero);
+    }else{
+        if(equipo[3].promedio>equipo[2].promedio && equipo[3].promedio>equipo[1].promedio && equipo[1].promedio>equipo[2].promedio || equipo[1].promedio<equipo[2].promedio){
+        printf("En el puesto N#%i esta El Equipo %s.\n",i,equipo[i].nombre_equipo);
+        printf("Total de victorias:%i\n",equipo[i].victorias);
+        printf("Total de derrotas:%i\n",equipo[i].derrotas);
+        printf("Mejor triplero del equipo:%s\n\n",equipo[i].nombre_triplero);
+        }
+    }
+}
+}
